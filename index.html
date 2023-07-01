@@ -55,7 +55,9 @@
               </p>
              </animatable-component>
           </div>
-          <div v-if="!!photo" class="col-auto d-none d-lg-block d-print-block">
+          <br>
+          <br>
+          <div v-if="!!photo" class="col-auto d-block d-lg-block d-print-block d-flex justify-content-center">
             <animatable-component autoplay animation="rotateIn" easing="ease-in" duration="1200">
               <img v-bind:src.prop="photo" class="photo border border-2 border-dark rounded-circle img-fluid float-end img-thumbnail">
             </animatable-component>
